@@ -6,12 +6,15 @@ public class PrimeTasks {
 		if (n == 0) return 0L;
 		Long index = 0L;
 		Long returnVal= 0L;
-		for (Long i = 0L; i < Long.MAX_VALUE && index != n; i++) {			
+		for (Long i = 0L; i < Long.MAX_VALUE; i++) {	
 			if (isPrime(i)) {
 				returnVal = i;
 				index++;
-			}		
-		}		
+				//System.out.println("Index: " + index + " prime: " + i);
+				if (index >= n) break;
+			}
+		}
+		//System.out.println("Index: " + index + " prime: " + returnVal);
 		return returnVal;
 	}
 	

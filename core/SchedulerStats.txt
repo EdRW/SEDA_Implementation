@@ -1,0 +1,71 @@
+-- Scheduler Performance Statistics --
+
+
+
+Default Scheduler time to complete 4000 prime tasks: 0 ms
+Average Throughput: Infinity tasks/sec
+Average Latency: 0 ms
+
+
+Custom SEDA Scheduler time to complete 4000 primes tasks: 66277 ms
+Average Throughput: 60.35276 tasks/sec
+Average Latency: 16 ms
+Thread Pool Size: 1024
+Batch size: 4
+
+
+Custom SEDA Scheduler time to complete 4000 primes tasks: 65935 ms
+Average Throughput: 60.66581 tasks/sec
+Average Latency: 16 ms
+Thread Pool Size: 1024
+Batch size: 8
+
+
+Custom SEDA Scheduler time to complete 4000 primes tasks: 66111 ms
+Average Throughput: 60.504303 tasks/sec
+Average Latency: 16 ms
+Thread Pool Size: 1024
+Batch size: 16
+
+
+Custom SEDA Scheduler time to complete 4000 primes tasks: 66123 ms
+Average Throughput: 60.49332 tasks/sec
+Average Latency: 16 ms
+Thread Pool Size: 1024
+Batch size: 32
+
+
+Custom SEDA Scheduler time to complete 4000 primes tasks: 66326 ms
+Average Throughput: 60.308178 tasks/sec
+Average Latency: 16 ms
+Thread Pool Size: 1024
+Batch size: 64
+
+
+Custom SEDA Scheduler time to complete 4000 primes tasks: 66195 ms
+Average Throughput: 60.427525 tasks/sec
+Average Latency: 16 ms
+Thread Pool Size: 1024
+Batch size: 128
+
+
+Custom SEDA Scheduler time to complete 4000 primes tasks: 66062 ms
+Average Throughput: 60.549183 tasks/sec
+Average Latency: 16 ms
+Thread Pool Size: 1024
+Batch size: 256
+
+
+Custom SEDA Scheduler time to complete 4000 primes tasks: 65254 ms
+Average Throughput: 61.298927 tasks/sec
+Average Latency: 16 ms
+Thread Pool Size: 1024
+Batch size: 512
+
+
+Custom SEDA Scheduler time to complete 4000 primes tasks: 65529 ms
+Average Throughput: 61.041676 tasks/sec
+Average Latency: 16 ms
+Thread Pool Size: 1024
+Batch size: 1024
+
